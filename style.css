@@ -18,11 +18,11 @@ header {
     height: 10vh;
 }
 header h1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 nav {
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 30px;
     display: flex;
 }
 a img {
