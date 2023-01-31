@@ -39,7 +39,7 @@ section {
 }
 .apresentation p {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 35px;
     width: 80vw;
     font-size: 1.1em;
 }
@@ -47,7 +47,7 @@ section {
     width: 80vw;
     height: 50vh;
     background-color: var(--main-color);
-    margin-top: 40px;
+    margin-top: 45px;
 }
 span {
     color: var(--main-color);
