@@ -50,7 +50,7 @@ section {
     margin-top: 45px;
 }
 .apresentation::after{
-    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    clip-path: polygon(0 0, 0 110%, 100% 100%);
     background-color: var(--main-color);
     height: 50px;
     margin-top: 50px;
@@ -136,6 +136,10 @@ span {
     .apresentation-div {
         width: 70vw;
         height: 60vh;
+    }
+    .apresentation::after{
+        margin-top: 100px;
+        height: 100px;
     }
 }
 @media screen and (min-width:1400px) {
