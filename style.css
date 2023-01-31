@@ -49,6 +49,23 @@ section {
     background-color: var(--main-color);
     margin-top: 45px;
 }
+.about-me {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--second-color);
+}
+.about-header {
+    text-align: center;
+    font-size: 1.6em;
+}
+.about-list {
+    width: 90vw;
+}
+.about-list ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
 span {
     color: var(--main-color);
     font-style: italic;
