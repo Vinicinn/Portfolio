@@ -35,7 +35,7 @@ section {
 .apresentation {
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 .apresentation p {
     text-align: center;
@@ -49,6 +49,14 @@ section {
     background-color: var(--main-color);
     margin-top: 45px;
 }
+.apresentation::after{
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    background-color: var(--main-color);
+    height: 50px;
+    margin-top: 50px;
+    content: "";
+    width: 100%;
+}
 .about-me {
     flex-direction: column;
     align-items: center;
@@ -61,6 +69,7 @@ section {
 }
 .about-list {
     width: 90vw;
+    margin-top: 30px;
 }
 .about-list ul {
     margin-left: 20px;
