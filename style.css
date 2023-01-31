@@ -113,7 +113,9 @@ span {
     .apresentation::after{
         margin-top: 100px;
     }
-
+    .about-list{
+        font-size: 1.2em;
+    }
 }
 @media screen and (min-width: 1000px) {
     header {
@@ -141,6 +143,12 @@ span {
         margin-top: 100px;
         height: 100px;
     }
+    .about-header{
+        font-size: 2em;
+    }
+    .about-list{
+        font-size: 1.4em;
+    }
 }
 @media screen and (min-width:1400px) {
     nav {
@@ -156,6 +164,6 @@ span {
     }
     .apresentation p {
         font-size: 2.4em;
-
     }
+    
 }
