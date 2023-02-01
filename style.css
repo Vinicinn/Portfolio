@@ -112,6 +112,7 @@ section {
 .project img {
     height: 150px;
     width: 100px;
+    background-color: var(--main-color);
 }
 span {
     color: var(--main-color);
@@ -210,6 +211,19 @@ hr {
         font-size: 2em;
     }
     .about-list{
+        font-size: 1.4em;
+    }
+    .projects-header {
+        font-size: 2em;
+    }
+    .projects-list {
+        font-size: 1.6em;
+    }
+    .project img {
+        height: 200px;
+        width: 150px;
+    }
+    footer{
         font-size: 1.4em;
     }
 }
