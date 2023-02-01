@@ -180,6 +180,12 @@ hr {
     .about-list{
         font-size: 1.2em;
     }
+    .projects {
+        row-gap: 80px;
+    }
+    .projects-list {
+        margin-bottom: 100px;
+    }
 }
 @media screen and (min-width: 1000px) {
     header {
