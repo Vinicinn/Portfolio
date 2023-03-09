@@ -194,6 +194,11 @@ hr {
         margin-bottom: 100px;
     }
 }
+@media screen and (min-width: 700px) {
+    .apresentation p {
+        margin-left: 35px;
+    }
+}
 @media screen and (min-width: 1000px) {
     header {
         justify-content: space-between;
